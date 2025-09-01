@@ -2,7 +2,7 @@ name: Schedule Reel Batch
 
 on:
   schedule:
-    - cron: '0 2 */10 * *'  # Every 10 days at 7:30 AM IST
+    - cron1: '0 2 */10 * *'  # Every 10 days at 7:30 AM IST
   workflow_dispatch:
 
 jobs:
